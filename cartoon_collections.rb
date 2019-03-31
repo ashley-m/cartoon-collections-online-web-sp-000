@@ -19,5 +19,6 @@ def find_the_cheese(collection)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   collection.each {|chz| return chz if cheese_types.include?(chz)}
+  return nil
 
 end
