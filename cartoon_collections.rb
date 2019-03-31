@@ -5,7 +5,7 @@ end
 
 def summon_captain_planet(collection)# code an argument here
   # Your code here
-  
+
   return collection.collect {|lmnt| lmnt.capitalize + "!"}
 end
 
